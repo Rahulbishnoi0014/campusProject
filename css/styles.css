@@ -1,0 +1,195 @@
+body{
+
+}
+#testimonials{
+
+  text-align: center;
+background-image: linear-gradient(#612897,#FF008E);
+  color: #fff;
+padding-bottom:50px;
+position: relative;
+
+}
+
+.carousel-item{
+  padding: 9% 19%;
+
+}
+.pimg{
+  width: 20%;
+  margin: 20px;
+
+}
+.pline{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+
+
+
+
+
+
+
+/* navbar */
+.navbar1{
+  background-color: #D22779;
+  padding: 1% 10%;
+  position: relative;
+}
+.navbar-brand{
+  font-family: "Comforter",cursive;
+  color: white;
+  font-size: 2rem;
+}
+.place{
+  font-family: "Montserrat-bold";
+  font-style: italic;
+  color: #FFBCD1;
+  text-align: left;
+  position:absolute;
+  left:20%;
+  top:60%;
+}
+/* container1 */
+.container-fluid{
+  padding-top: 3rem;
+  padding-left: 10%;
+  padding-right:10%;
+  padding-bottom: 50px;
+  text-align: left;
+  color: white;
+  background-image: linear-gradient(#FF008E,#612897);
+  position: relative;
+
+}
+
+.intro-heading{
+  font-family: "Montserrat",cursive;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+
+  text-align:left;
+  padding-top:20%;
+}
+.login-button{
+margin-top: 3rem ;
+margin-right:3rem;
+background-color: #612897;
+text-align: left;
+}
+.intro-img{
+  width: 50%;
+  position: relative;
+  left:100px;
+  transform: rotate(25deg);
+}
+/* feature section */
+.features{
+  padding: 5% 20%;
+  text-align: center;
+position: relative;
+background-image: linear-gradient(#612897,#FF008E);
+
+}
+.feature1, .feature2, .feature3{
+  position: relative;
+  padding: 2.5rem;
+  margin: 20px 0;
+  border-radius: 15%;
+  background-image: linear-gradient(#FF008E,#612897);
+
+}
+.img1, .img3{
+
+  margin: 0 0 0 0;
+  height:240px;
+  float: left;
+  padding: 10px;
+
+}
+.img2{
+  height: 200px;
+  float:right;
+  padding: 10px;
+}
+
+.line{
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: 900;
+  text-align: left;
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.5;
+
+}
+
+/* loginnnnn */
+#login{
+  position:relative;
+}
+
+/* foootterrrrsectiom */
+#footer .cpt{
+  background-color: #D22779;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+@media (max-width:1028px)  {
+  .place{
+    position: relative;
+    text-align: left;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+  .login-button{
+    margin:0;
+  }
+  .intro-img{
+    padding-top: 10%;
+    width:60%;
+    position: static;
+
+    transform: rotate(0);
+  }
+ .features{
+   padding: 2% 4%;
+ }
+  .img1, .img2, .img3{
+
+  position: static;
+  float: none;
+  }
+  .line{
+    text-align: center;
+  }
+
+
+
+
+  .pline{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: ;
+
+  }
+
+
+
+}

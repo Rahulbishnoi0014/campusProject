@@ -1,0 +1,285 @@
+body{
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  
+
+}
+#testimonials{
+
+  text-align: center;
+/* background-image: linear-gradient(#612897,#FF008E); */
+background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+  color: #fff;
+padding-bottom:50px;
+position: relative;
+
+}
+
+.carousel-item{
+  padding: 9% 19%;
+
+}
+.pimg{
+  width: 20%;
+  margin: 20px;
+
+}
+.pline{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+
+
+
+
+
+
+
+
+/* navbar */
+.navbar1{
+  background-color: rgba(255, 0, 142, 0.5);
+  padding: 1% 10%;
+  position: relative;
+}
+.navbar-brand{
+  font-family: "Comforter",cursive;
+  color: white;
+  font-size: 2rem;
+}
+.place{
+  font-family: "Montserrat-bold";
+  font-style: italic;
+  color: #FFBCD1;
+  text-align: left;
+  position:absolute;
+  left:20%;
+  top:60%;
+}
+/* container1 */
+.container-fluid{
+  padding-top: 3rem;
+  padding-left: 10%;
+  padding-right:10%;
+  padding-bottom: 50px;
+  text-align: left;
+  color: white;
+  /* background-image: linear-gradient(#FF008E,#612897); */
+  background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+  position: relative;
+
+}
+
+.intro-heading{
+  font-family: "Montserrat",cursive;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+
+  text-align:left;
+  padding-top:20%;
+}
+.login-button{
+margin-top: 3rem ;
+margin-right:3rem;
+background: linear-gradient(to right, rgba(255, 0, 142, 0.4), rgba(97, 40, 151, 0.4)); 
+
+text-align: left;
+}
+.intro-img{
+  width: 50%;
+  position: relative;
+  left:100px;
+  transform: rotate(25deg);
+}
+/* feature section */
+/* .features{
+  padding: 5% 20%;
+  text-align: center;
+position: relative;
+background-image: linear-gradient(#612897,#FF008E);
+
+}
+.feature1, .feature2, .feature3{
+  position: relative;
+  padding: 2.5rem;
+  margin: 20px 0;
+  border-radius: 15%;
+  background-image: linear-gradient(#FF008E,#612897);
+
+}
+.img1, .img3{
+
+  margin: 0 0 0 0;
+  height:240px;
+  float: left;
+  padding: 10px;
+
+}
+.img2{
+  height: 200px;
+  float:right;
+  padding: 10px;
+}
+
+.line{
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: 900;
+  text-align: left;
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.5;
+
+} */
+
+/* loginnnnn */
+.login{
+  
+  position:relative;
+  background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+}
+
+.ibutton {
+   
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+
+ }
+
+
+/* foootterrrrsectiom */
+#footer .cpt{
+  background-color: #7d22b1be;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+
+
+
+
+@media (max-width:1028px)  {
+  /* intro container 1 */
+  .container-fluid{
+    text-align: center;
+    
+  }
+  .intro-heading{
+  font-size:120px;
+  /* padding: 0; */
+  text-align: center;
+  
+  }
+  .login-button{
+    margin: 3rem;
+    font-size: 70px;;
+    
+  }
+  .intro-img{
+    padding-top: 10%;
+    width:50%;
+    position: static;
+
+    transform: rotate(0);
+  }
+
+
+  /* features section */
+ /* .features{
+   padding: 2% 4%;
+ }
+  .img1, .img2, .img3{
+
+  position: static;
+  float: none;
+  }
+  .line{
+    text-align: center;
+  }
+ */
+
+ /* testimonial */
+#testimonials{
+  height: 60rem;
+  position: relative;
+}
+ .testbut{
+  
+  text-align: center;
+ }
+  .pline{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4rem;
+    
+
+  }
+
+/*navbar section */
+
+  .navbar1{
+    size: 3rem;
+  }
+  .navbar-brand{
+    font-size: 6rem;
+  }
+  .navbut{
+    height: 6rem;
+    width:6rem;
+  }
+  .navitem{
+    font-size: 4rem;
+  }
+  .place{
+    font-size: 3rem;
+    text-align: center;
+    position:relative;
+    left:4%;
+
+  }
+  /* loginnnnnn */
+  .heading{
+    font-size: 200px;
+    padding-bottom: 5rem;
+  }
+  
+  
+  .iline{
+    font-size: 2.5rem;
+  }
+  h1{
+    font-size: 100px;
+  }
+  h2{
+    font-size: 50px;
+    
+
+  }
+  .itemin{
+    height: 7rem;
+    font-size: 3.5rem;
+  }
+  .form-label{
+     font-size: 3rem;
+     
+  }
+  .h-100{
+    padding: 20px 0;
+  }
+  .ibutton{
+    font-size: 4rem;;
+  }
+
+
+}

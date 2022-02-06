@@ -1,0 +1,74 @@
+.heading{
+  font-family: "comforter",cursive;
+  font-size: 80px;
+  text-align: center;
+  /* color: linear-gradient(to right, rgba(255, 0, 142), rgba(97, 40, 151));  */
+color: rgba(255, 0, 142);
+  opacity: 0.5;
+}
+body{
+  background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+h2{
+  color: rgba(97, 40, 151);
+}
+
+.h-100{
+  padding: 20px 0;
+}
+
+
+.gradient-custom-3 {
+   
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6));
+  }
+  .gradient-custom-4 {
+   
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+
+   }
+
+
+   #footer .cpt{
+    background-color: rgba(199, 58, 157, 0.432);
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+
+
+   @media (max-width:1028px) {
+     
+     .heading{
+       font-size: 200px;
+       padding-bottom: 5rem;
+     }
+     
+     
+     .iline{
+       font-size: 30px;
+     }
+     h2{
+       font-size: 50px;
+       
+
+     }
+     .itemin{
+       height: 7rem;
+       font-size: 3.5rem;
+     }
+     .form-label{
+        font-size: 2rem;
+     }
+     
+     .ibutton{
+       font-size: 2.8rem;;
+     }
+   }

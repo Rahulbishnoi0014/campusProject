@@ -4,14 +4,26 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-  
+ 
 
+
+}
+ .colour-gradient{
+  
+/* background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6));  */
+background: linear-gradient(to right, rgba(2, 170, 176,0.5), rgba(0, 205, 172, 0.6));   
+/* background: linear-gradient(to right, rgba(12, 205, 163,0.5), rgba(193, 252, 211, 0.8));  */
+/* background: linear-gradient(to right, rgba(71, 118, 230,0.5), rgba(97, 40, 151, 0.5));  */
+
+}
+.top-bottom{
+  background-color: rgba(0, 117, 121, 0.5);
 }
 #testimonials{
 
   text-align: center;
 /* background-image: linear-gradient(#612897,#FF008E); */
-background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+
   color: #fff;
 padding-bottom:50px;
 position: relative;
@@ -46,19 +58,22 @@ position: relative;
 
 /* navbar */
 .navbar1{
-  background-color: rgba(255, 0, 142, 0.5);
+  
   padding: 1% 10%;
   position: relative;
 }
 .navbar-brand{
   font-family: "Comforter",cursive;
   color: white;
-  font-size: 2rem;
+  font-size: 3.5rem;
+}
+.nav-link{
+  font-size: 1.5rem;
 }
 .place{
   font-family: "Montserrat-bold";
   font-style: italic;
-  color: #FFBCD1;
+  color: #1dadb8;
   text-align: left;
   position:absolute;
   left:20%;
@@ -73,7 +88,6 @@ position: relative;
   text-align: left;
   color: white;
   /* background-image: linear-gradient(#FF008E,#612897); */
-  background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
   position: relative;
 
 }
@@ -81,7 +95,7 @@ position: relative;
 .intro-heading{
   font-family: "Montserrat",cursive;
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.5;
 
   text-align:left;
@@ -90,14 +104,15 @@ position: relative;
 .login-button{
 margin-top: 3rem ;
 margin-right:3rem;
-background: linear-gradient(to right, rgba(255, 0, 142, 0.4), rgba(97, 40, 151, 0.4)); 
+
+
 
 text-align: left;
 }
 .intro-img{
   width: 50%;
   position: relative;
-  left:100px;
+  left:200px;
   transform: rotate(25deg);
 }
 /* feature section */
@@ -142,23 +157,18 @@ background-image: linear-gradient(#612897,#FF008E);
 } */
 
 /* loginnnnn */
-.login{
+/* .login{
   
   position:relative;
-  background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
-}
+  /* background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6));  */
+  /* background: linear-gradient(to right, rgba(2, 170, 176,0.5), rgba(0, 205, 172, 0.6));  */
 
-.ibutton {
-   
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
 
- }
+
 
 
 /* foootterrrrsectiom */
 #footer .cpt{
-  background-color: #7d22b1be;
   text-align: center;
   padding: 20px 0;
   color: #fff;
@@ -237,6 +247,9 @@ background-image: linear-gradient(#612897,#FF008E);
   .navbut{
     height: 6rem;
     width:6rem;
+  }
+  .nav-link{
+    font-size: 3rem;
   }
   .navitem{
     font-size: 4rem;

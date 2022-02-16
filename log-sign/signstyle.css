@@ -3,17 +3,20 @@
   font-size: 80px;
   text-align: center;
   /* color: linear-gradient(to right, rgba(255, 0, 142), rgba(97, 40, 151));  */
-color: rgba(255, 0, 142);
+/* color: rgba(255, 0, 142); */
+color: rgba(0, 205, 172);
   opacity: 0.5;
 }
 body{
   background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
   background-size:cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   
 }
 h2{
-  color: rgba(97, 40, 151);
+  /* color: rgba(97, 40, 151); */
+  color: rgb(0, 126, 105);
 }
 
 .h-100{
@@ -24,18 +27,24 @@ h2{
 .gradient-custom-3 {
    
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6));
+    /* background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); */
+    background: linear-gradient(to right, rgba(2, 170, 176,0.5), rgba(0, 205, 172, 0.6)); 
+
   }
   .gradient-custom-4 {
    
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6)); 
+    /* background: linear-gradient(to right, rgba(255, 0, 142, 0.6), rgba(97, 40, 151, 0.6));  */
+    background: linear-gradient(to right, rgba(2, 170, 176,0.5), rgba(0, 205, 172, 0.6)); 
+
 
    }
 
 
    #footer .cpt{
-    background-color: rgba(199, 58, 157, 0.432);
+    /* background-color: rgba(199, 58, 157, 0.432); */
+    background-color: rgba(0, 117, 121, 0.5);
+
     text-align: center;
     padding: 20px 0;
     color: rgb(0, 0, 0);
